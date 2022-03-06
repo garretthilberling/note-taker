@@ -16,7 +16,7 @@ First, select "Get Started" to enter the notes section. Users can add, save, and
 ![App screenshot](./public/assets/img/application-screenshot.png)
 
 ## Installation
-No installation, access the application via the live Heroku url: https://safe-mesa-17839.herokuapp.com/
+No installation, access the application via the live Heroku URL: https://safe-mesa-17839.herokuapp.com/
 ## Questions
 If you have any questions about this project, please contact me via my GitHub: https://github.com/garretthilberling
 
