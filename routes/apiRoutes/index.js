@@ -4,10 +4,9 @@ const fs = require('fs');
 var { notes } = require('../../db/db');
 
 router.get('/notes', (req, res) => {
-  for (let i = 0; i < notes.length; i++) {
+  for (let i = 0; i < notes.length; i++) { //iterate through notes data and using uuid to assign ids to each object
     notes[i].id = uuidv4(); 
   }
-  console.log(uuidv4());
   res.json(notes);
 });
 
